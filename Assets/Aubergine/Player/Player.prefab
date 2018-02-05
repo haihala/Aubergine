@@ -181,7 +181,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 1
+  m_LinearDrag: 18
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
@@ -223,6 +223,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: {fileID: 11400000, guid: c8826b8b94653734ea0bba70c13263a3, type: 2}
+  dash: {fileID: 11400000, guid: ac83b4ee9615bc64dbe6de00fd233bb3, type: 2}
 --- !u!124 &124946902687143174
 Behaviour:
   m_ObjectHideFlags: 1
