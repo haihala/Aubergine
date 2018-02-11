@@ -9,8 +9,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
-  m_Name: Linear
-  m_EditorClassIdentifier: Assembly-CSharp::Linear_Dash
+  m_Name: Basic
+  m_EditorClassIdentifier: Assembly-CSharp::Basic_Dash
   duration: 0.2
-  force: 200
+  force: 100
   cooldown: 0.5

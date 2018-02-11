@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
 abstract public class Dash : ScriptableObject {
 	public float duration;
 	public float force;
@@ -10,7 +11,7 @@ abstract public class Dash : ScriptableObject {
 	abstract public float power(float start_time);
 }
 
-
+[System.Serializable]
 [CreateAssetMenu(menuName = "Aubergine/Dash/Basic")]
 public class Basic_Dash : Dash {
 	override public float power(float start_time) {
@@ -19,6 +20,7 @@ public class Basic_Dash : Dash {
 	}
 }
 
+[System.Serializable]
 [CreateAssetMenu(menuName = "Aubergine/Dash/Linear")]
 public class Linear_Dash : Dash {
 	override public float power(float start_time) {
@@ -27,6 +29,7 @@ public class Linear_Dash : Dash {
 	}
 }
 
+[System.Serializable]
 [CreateAssetMenu(menuName = "Aubergine/Dash/Reverse_Linear")]
 public class Reverse_Linear_Dash : Dash {
 	override public float power(float start_time) {

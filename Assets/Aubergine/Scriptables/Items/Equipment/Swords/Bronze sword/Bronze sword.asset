@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1d5a04586f6d8442a1bbf8878227a82, type: 3}
+  m_Name: Bronze sword
+  m_EditorClassIdentifier: 
+  name: Green sword
+  price: 1
+  min_charge: 0
+  max_charge: 1
+  damage: 3
+  range: 1
+  attack_delay: 1
+  auto_release: 0
+  model: {fileID: 1807164732628620, guid: fbed5ea725a921a46867bc2a13744345, type: 2}
+  state: 0
+  cooldown_start_time: 42.57585
+  charge_start_time: 42.32945
+  swing_time: 1
+  swing_angle: 180
+  weight: 1
+  start_point: {x: 0.2737866, y: -0.4183789}

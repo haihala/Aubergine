@@ -37,6 +37,7 @@ GameObject:
   - component: {fileID: 4090840175080330}
   - component: {fileID: 50160249393716226}
   - component: {fileID: 114816325612966948}
+  - component: {fileID: 114214500887896852}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -211,6 +212,19 @@ AudioListener:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1739790707086780}
   m_Enabled: 1
+--- !u!114 &114214500887896852
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1317376076566200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f70ae48b3a50e9f4aa74543eef459f98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sword: {fileID: 11400000, guid: 983f3bd3d3a97bc49a9ab8f518c27139, type: 2}
+  gun: {fileID: 11400000, guid: 60200ff8e71ca8d46a3dab85227cf265, type: 2}
 --- !u!114 &114816325612966948
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -223,7 +237,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: {fileID: 11400000, guid: c8826b8b94653734ea0bba70c13263a3, type: 2}
-  dash: {fileID: 11400000, guid: ac83b4ee9615bc64dbe6de00fd233bb3, type: 2}
+  dash: {fileID: 11400000, guid: bfd516b528923e64d9e8406075c2fa2d, type: 2}
 --- !u!124 &124946902687143174
 Behaviour:
   m_ObjectHideFlags: 1
