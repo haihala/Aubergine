@@ -11,7 +11,7 @@ public enum Weapon_state
 public abstract class Weapon : Equipment {
     public float min_charge;
     public float max_charge;
-    public float damage;
+    public int damage;
     public float range;
     public float attack_delay;  // An attack cannot be initiated for attack_delay of seconds after an attack is launched.
     public bool auto_release;   // If true, when full charge is met, weapon is automatically fired.

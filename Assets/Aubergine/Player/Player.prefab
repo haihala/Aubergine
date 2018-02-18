@@ -38,6 +38,7 @@ GameObject:
   - component: {fileID: 50160249393716226}
   - component: {fileID: 114816325612966948}
   - component: {fileID: 114214500887896852}
+  - component: {fileID: 114830106942664060}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -223,8 +224,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f70ae48b3a50e9f4aa74543eef459f98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sword: {fileID: 11400000, guid: 983f3bd3d3a97bc49a9ab8f518c27139, type: 2}
-  gun: {fileID: 11400000, guid: 60200ff8e71ca8d46a3dab85227cf265, type: 2}
+  sword: {fileID: 11400000, guid: ab07d609190da9d44aea83c32346a97d, type: 2}
+  gun: {fileID: 11400000, guid: 0a53836227eec1d43b22f412669e8be7, type: 2}
 --- !u!114 &114816325612966948
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -237,7 +238,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: {fileID: 11400000, guid: c8826b8b94653734ea0bba70c13263a3, type: 2}
-  dash: {fileID: 11400000, guid: bfd516b528923e64d9e8406075c2fa2d, type: 2}
+  dash: {fileID: 11400000, guid: 23bdde2a7675c0a4fbcc80acf541b835, type: 2}
+--- !u!114 &114830106942664060
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1317376076566200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3b657cdb47c5a244bb4e92873dbd96a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currency: {fileID: 11400000, guid: 45560dfe2a3f09e408fea7284c4d1f5a, type: 2}
+  consumables: {fileID: 11400000, guid: 6a81451ff6100b84cb5d26192e8170b7, type: 2}
+  sword: {fileID: 11400000, guid: ab07d609190da9d44aea83c32346a97d, type: 2}
+  gun: {fileID: 11400000, guid: 0a53836227eec1d43b22f412669e8be7, type: 2}
+  armor: {fileID: 11400000, guid: 46019ee63e3169e47a4bbf871d2d10a7, type: 2}
 --- !u!124 &124946902687143174
 Behaviour:
   m_ObjectHideFlags: 1
@@ -278,7 +295,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0

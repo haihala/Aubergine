@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Equipped_gun
+  m_EditorClassIdentifier: Assembly-CSharp::GunVariable
+  Value: {fileID: 11400000, guid: 60200ff8e71ca8d46a3dab85227cf265, type: 2}
+  Comment: 

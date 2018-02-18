@@ -15,14 +15,17 @@ MonoBehaviour:
   price: 2
   min_charge: 1
   max_charge: 1
-  damage: 1
+  damage: 0
   range: 5
   attack_delay: 0.5
   auto_release: 1
-  model: {fileID: 0}
+  model: {fileID: 1457326098701986, guid: 910a0353daa50d8428613d8c68d7b423, type: 2}
   state: 0
-  cooldown_start_time: 0
-  charge_start_time: 2.0569117
-  ammo_consumption: 1
-  ammo_capacity: 3
-  ammo_current: 2
+  cooldown_start_time: 1.8714823
+  charge_start_time: 0.86501336
+  ammo_capacity: {fileID: 11400000, guid: 90002811ee30ccd44b529e4c3347734e, type: 2}
+  ammo_consumption: {fileID: 11400000, guid: 98b1b9d9687600147b8ffd697dbe8401, type: 2}
+  ammo_current: {fileID: 11400000, guid: 415af218cb7550343b1dbffa0bc9ae57, type: 2}
+  grip: {x: 0.3, y: -0.2}
+  projectile: {fileID: 1705979757543706, guid: e0176d9371d410240b4986a549d5d159, type: 2}
+  projectile_speed: 10
